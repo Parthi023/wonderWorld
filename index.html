@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WonderWorld is a fun educational discovery hub for curious students. Explore space, science, geography, coding, history and more.">
+  <title>WonderWorld – Explore & Learn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span>✨</span> A universe of discovery is just one click away! <span>🚀</span></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="WonderWorld home">
+        <span class="brand-mark">✦</span>
+        <span>Wonder<span>World</span><small>EXPLORE & LEARN</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#explore">Explore</a>
+        <a href="#categories">Categories</a>
+        <a href="#discoveries">Discoveries</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#categories">Start Exploring <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR ADVENTURE STARTS HERE</div>
+          <h1>Welcome to<br><span class="gradient-text">WonderWorld!</span></h1>
+          <p class="hero-lead">Your gateway to amazing discoveries, interactive experiments and endless learning adventures.</p>
+          <p class="hero-description">Explore the universe, experiment with science, travel around the world and discover something new every day.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#categories">Explore the World <span>→</span></a>
+            <a class="button button-secondary" href="#discoveries"><span class="play-icon">▶</span> Discover Learning</a>
+          </div>
+          <div class="hero-social-proof">
+            <div class="avatar-stack"><span>🧑🏻‍🚀</span><span>👩🏽‍🔬</span><span>🧒🏼</span><span>👩🏻‍💻</span></div>
+            <div><strong>Curiosity lives here</strong><small>For explorers in Classes 1–12</small></div>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-label="Illustration of a playful space and learning universe">
+          <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div>
+          <div class="planet planet-large"><span>✦</span></div>
+          <div class="planet planet-small"></div>
+          <div class="planet planet-ring"></div>
+          <div class="floating-card rocket-card"><span>🚀</span><small>Blast off!</small></div>
+          <div class="floating-card book-card"><span>📚</span><small>New worlds</small></div>
+          <div class="floating-card flask-card"><span>🧪</span><small>Try an experiment</small></div>
+          <span class="art-star star-a">✦</span><span class="art-star star-b">✧</span><span class="art-star star-c">✦</span>
+          <span class="art-cloud cloud-a"></span><span class="art-cloud cloud-b"></span>
+          <div class="hero-art-label"><span class="label-icon">🌟</span><span><strong>Wonder is everywhere</strong><small>Let's go find it!</small></span></div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>↓</span></div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-inner"><span>LEARN BY EXPLORING</span><i></i><span>PLAY WITH IDEAS</span><i></i><span>DISCOVER THE UNKNOWN</span><i></i><span>KEEP BEING CURIOUS</span></div>
+    </section>
+
+    <section class="section categories-section" id="categories">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><div class="eyebrow"><span class="eyebrow-dot"></span> PICK YOUR ADVENTURE</div><h2>Explore a world of<br><span class="gradient-text">possibilities.</span></h2></div>
+          <p>Big questions lead to amazing discoveries. Choose a world and start exploring with trusted learning experiences from across the web.</p>
+        </div>
+        <div class="category-grid">
+          <article class="category-card card-blue reveal">
+            <div class="card-top"><span class="category-icon">🪐</span><span class="card-number">01 / SPACE</span></div>
+            <div class="card-illustration space-illustration"><span class="mini-planet"></span><span class="mini-moon"></span><span class="mini-star">✦</span></div>
+            <h3>Space & Astronomy</h3><p>Explore planets, galaxies, spacecraft and the mysteries of the universe.</p>
+            <a class="text-link" href="https://eyes.nasa.gov/" target="_blank" rel="noopener noreferrer">Explore space <span>↗</span></a>
+          </article>
+          <article class="category-card card-purple reveal">
+            <div class="card-top"><span class="category-icon">🧪</span><span class="card-number">02 / SCIENCE</span></div>
+            <div class="card-illustration science-illustration"><span class="bubble bubble-one"></span><span class="bubble bubble-two"></span><span class="flask">⚗️</span></div>
+            <h3>Science Lab</h3><p>Experiment with physics, chemistry, electricity and mathematics.</p>
+            <a class="text-link" href="https://phet.colorado.edu/" target="_blank" rel="noopener noreferrer">Enter the lab <span>↗</span></a>
+          </article>
+          <article class="category-card card-green reveal">
+            <div class="card-top"><span class="category-icon">🌍</span><span class="card-number">03 / GEOGRAPHY</span></div>
+            <div class="card-illustration earth-illustration"><span class="earth">🌎</span><span class="earth-spark">✧</span></div>
+            <h3>Earth Explorer</h3><p>Travel across countries, oceans, mountains and famous landmarks.</p>
+            <a class="text-link" href="https://earth.google.com/web/" target="_blank" rel="noopener noreferrer">Explore Earth <span>↗</span></a>
+          </article>
+          <article class="category-card card-yellow reveal">
+            <div class="card-top"><span class="category-icon">💻</span><span class="card-number">04 / TECHNOLOGY</span></div>
+            <div class="card-illustration coding-illustration"><span class="code-symbol">&lt;/&gt;</span><span class="code-spark">✦</span></div>
+            <h3>Coding & Technology</h3><p>Create games, animations and interactive stories with code.</p>
+            <a class="text-link" href="https://scratch.mit.edu/" target="_blank" rel="noopener noreferrer">Start creating <span>↗</span></a>
+          </article>
+          <article class="category-card card-pink reveal">
+            <div class="card-top"><span class="category-icon">🏛️</span><span class="card-number">05 / CULTURE</span></div>
+            <div class="card-illustration culture-illustration"><span>🎨</span><span>🗿</span><span>🖼️</span></div>
+            <h3>History, Art & Culture</h3><p>Discover museums, historical places, artwork and world cultures.</p>
+            <a class="text-link" href="https://artsandculture.google.com/" target="_blank" rel="noopener noreferrer">Visit the museum <span>↗</span></a>
+          </article>
+          <article class="category-card card-orange reveal">
+            <div class="card-top"><span class="category-icon">🔭</span><span class="card-number">06 / DISCOVERY</span></div>
+            <div class="card-illustration discovery-illustration"><span class="telescope">🔬</span><span class="discovery-star">✦</span></div>
+            <h3>Scientific Discovery</h3><p>Explore real citizen-science projects and become a researcher.</p>
+            <a class="text-link" href="https://www.zooniverse.org/" target="_blank" rel="noopener noreferrer">Discover projects <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section featured-section" id="explore">
+      <div class="container">
+        <div class="section-heading section-heading-center reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> HANDPICKED FOR CURIOUS MINDS</div>
+          <h2>Today's amazing <span class="gradient-text">discoveries.</span></h2>
+          <p>Here are three adventures to get your curiosity moving.</p>
+        </div>
+        <div class="featured-grid">
+          <article class="feature-card feature-space reveal">
+            <div class="feature-image"><div class="feature-emoji">🪐</div><span class="image-tag">SPACE ADVENTURE</span></div>
+            <div class="feature-content"><span class="feature-meta">ASTRONOMY · EXPLORE</span><h3>Journey through the solar system</h3><p>Visit planets and explore the wonders of our cosmic neighbourhood.</p><a href="https://eyes.nasa.gov/" target="_blank" rel="noopener noreferrer" class="button button-dark">Take the journey ↗</a></div>
+          </article>
+          <article class="feature-card feature-lab reveal">
+            <div class="feature-image"><div class="feature-emoji">⚗️</div><span class="image-tag">SCIENCE ADVENTURE</span></div>
+            <div class="feature-content"><span class="feature-meta">SCIENCE · EXPERIMENT</span><h3>Enter the world of experiments</h3><p>Test ideas, change variables and see science come alive.</p><a href="https://phet.colorado.edu/" target="_blank" rel="noopener noreferrer" class="button button-dark">Start experimenting ↗</a></div>
+          </article>
+          <article class="feature-card feature-earth reveal">
+            <div class="feature-image"><div class="feature-emoji">🌏</div><span class="image-tag">EARTH ADVENTURE</span></div>
+            <div class="feature-content"><span class="feature-meta">GEOGRAPHY · TRAVEL</span><h3>Travel around the world</h3><p>Discover new places, natural wonders and amazing landmarks.</p><a href="https://earth.google.com/web/" target="_blank" rel="noopener noreferrer" class="button button-dark">Explore the globe ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section discovery-section" id="discoveries">
+      <div class="container discovery-layout">
+        <div class="discovery-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> A LITTLE WONDER EVERY DAY</div>
+          <h2>Did you <span class="gradient-text">know?</span></h2>
+          <p>There is something amazing hiding in almost everything. Take a moment to discover a new fact!</p>
+          <button class="button button-primary" id="newFactBtn">Discover another fact <span>↻</span></button>
+        </div>
+        <div class="fact-card reveal">
+          <div class="fact-card-top"><span class="fact-badge" id="factCategory">SPACE</span><span class="fact-sparkle">✦</span></div>
+          <div class="fact-emoji" id="factEmoji">🪐</div>
+          <p class="fact-text" id="factText" aria-live="polite">A day on Venus is longer than its year. Venus takes about 243 Earth days to rotate once, but only about 225 Earth days to orbit the Sun!</p>
+          <div class="fact-footer"><span>✨</span> STAY CURIOUS. KEEP DISCOVERING.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="challenges">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><div class="eyebrow"><span class="eyebrow-dot"></span> TEST YOUR CURIOSITY</div><h2>Ready for a <span class="gradient-text">challenge?</span></h2></div>
+          <p>Give your brain a fun workout. Pick a challenge, answer the questions and see how much you know!</p>
+        </div>
+        <div class="quiz-grid">
+          <article class="quiz-card quiz-space reveal"><div class="quiz-icon">🚀</div><span class="quiz-level">5 QUESTIONS</span><h3>Space Quiz</h3><p>How well do you know our universe?</p><button class="quiz-start" data-quiz="space">Play challenge <span>→</span></button></article>
+          <article class="quiz-card quiz-science reveal"><div class="quiz-icon">🧬</div><span class="quiz-level">5 QUESTIONS</span><h3>Science Trivia</h3><p>Put your science knowledge to the test.</p><button class="quiz-start" data-quiz="science">Play challenge <span>→</span></button></article>
+          <article class="quiz-card quiz-geo reveal"><div class="quiz-icon">🌎</div><span class="quiz-level">5 QUESTIONS</span><h3>Geography Challenge</h3><p>Can you find your way around the world?</p><button class="quiz-start" data-quiz="geography">Play challenge <span>→</span></button></article>
+        </div>
+        <div class="quiz-panel" id="quizPanel" hidden>
+          <div class="quiz-panel-header"><div><span class="eyebrow">WONDERWORLD CHALLENGE</span><h3 id="quizTitle">Space Quiz</h3></div><button class="close-quiz" id="closeQuiz" aria-label="Close quiz">×</button></div>
+          <div class="quiz-progress-meta"><span id="questionCount">Question 1 of 5</span><span id="scoreCount">Score: 0</span></div>
+          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+          <div id="questionArea">
+            <h4 id="questionText"></h4>
+            <div class="answer-list" id="answerList"></div>
+            <p class="answer-feedback" id="answerFeedback" aria-live="polite"></p>
+            <button class="button button-primary next-question" id="nextQuestion" disabled>Next question →</button>
+          </div>
+          <div class="quiz-result" id="quizResult" hidden><div class="result-emoji">🏆</div><h3>Fantastic exploring!</h3><p id="resultText"></p><button class="button button-primary" id="restartQuiz">Play again ↻</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section benefits-section">
+      <div class="container">
+        <div class="section-heading section-heading-center reveal"><div class="eyebrow"><span class="eyebrow-dot"></span> WHY WONDERWORLD?</div><h2>Learning is better when<br>you <span class="gradient-text">explore.</span></h2></div>
+        <div class="benefits-grid">
+          <div class="benefit reveal"><span class="benefit-icon benefit-blue">🧭</span><h3>Learn through exploration</h3><p>Follow your curiosity and discover ideas at your own pace.</p></div>
+          <div class="benefit reveal"><span class="benefit-icon benefit-purple">🌐</span><h3>Discover real resources</h3><p>Find interactive learning experiences from trusted platforms.</p></div>
+          <div class="benefit reveal"><span class="benefit-icon benefit-green">🔬</span><h3>Go beyond textbooks</h3><p>See concepts in action with simulations and virtual experiences.</p></div>
+          <div class="benefit reveal"><span class="benefit-icon benefit-yellow">💡</span><h3>Grow your creativity</h3><p>Make, experiment, ask questions and think in new ways.</p></div>
+          <div class="benefit reveal"><span class="benefit-icon benefit-pink">🤖</span><h3>Explore future technology</h3><p>Get curious about coding, science and tomorrow's ideas.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container about-card reveal">
+        <div class="about-art"><div class="about-sun">☀️</div><div class="about-book">📖</div><div class="about-star">✦</div><div class="about-plant">🌱</div></div>
+        <div class="about-copy"><div class="eyebrow"><span class="eyebrow-dot"></span> OUR LITTLE UNIVERSE</div><h2>Learning should be<br><span class="gradient-text">an adventure.</span></h2><p>WonderWorld brings together amazing educational resources from across the internet, helping students explore, experiment, create and discover knowledge beyond the classroom.</p><a class="text-link" href="#categories">Find your next adventure <span>→</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-main">
+      <div class="footer-brand"><a class="brand brand-light" href="#home"><span class="brand-mark">✦</span><span>Wonder<span>World</span><small>EXPLORE & LEARN</small></span></a><p>A little curiosity can take you a long way. Keep exploring, keep discovering!</p></div>
+      <div class="footer-column"><h4>Explore</h4><a href="#categories">Learning categories</a><a href="#explore">Featured experiences</a><a href="#challenges">Fun challenges</a></div>
+      <div class="footer-column"><h4>Discover</h4><a href="https://eyes.nasa.gov/" target="_blank" rel="noopener noreferrer">NASA Eyes</a><a href="https://phet.colorado.edu/" target="_blank" rel="noopener noreferrer">PhET Simulations</a><a href="https://scratch.mit.edu/" target="_blank" rel="noopener noreferrer">Scratch</a></div>
+      <div class="footer-column"><h4>WonderWorld</h4><a href="#about">About us</a><a href="#home">Back to top ↑</a><a href="mailto:hello@wonderworld.example">Contact</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> WonderWorld. Made for curious minds.</span><span>Keep exploring. Keep discovering. ✨</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
